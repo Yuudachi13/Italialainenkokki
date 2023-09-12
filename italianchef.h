@@ -9,7 +9,8 @@ public:
     ItalianChef(string);
     ~ItalianChef();
     void makePasta();
-    string getName;
+
+    string getName();
 };
 
 #endif // ITALIANCHEF_H
