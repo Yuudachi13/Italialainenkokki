@@ -6,11 +6,17 @@
 class ItalianChef:public Chef
 {
 public:
-    ItalianChef(string);
+    ItalianChef(string,int,int);
+
     ~ItalianChef();
-    void makePasta();
+    void makePasta(int,int);
+
 
     string getName();
+
+private:
+    int vesi;
+    int jauhot;
 };
 
 #endif // ITALIANCHEF_H

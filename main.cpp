@@ -3,16 +3,13 @@
 
 int main()
 {
-    Chef kokkiolio("Jyrki");
-    ItalianChef itakokkiolio("Mario");
 
-    kokkiolio.makeSalad();
-    itakokkiolio.makePasta();
-    kokkiolio.makeSoup();
+    ItalianChef itakokkiolio("Mario", 100, 250);
 
 
-  //  cout<<"Italia kokin nimi on "<< itakokkiolio.getName()<<endl;
-    // palauttaa kokin nimensyysta etta toisesta? mihin tata tarvittiin?
+    itakokkiolio.makePasta(20,20);
+
+
 
     return 0;
 }
